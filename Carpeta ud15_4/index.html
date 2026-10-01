@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla de Gestión de Inventario</title>
+    <style>
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-spacing: 8px;
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        caption {
+            caption-side: bottom;
+            font-weight: bold;
+            padding-top: 10px;
+            color: gray;
+        }
+
+        th, td {
+            border: 1px solid lightslategray;
+            padding: 10px;
+            text-align: center;
+            background-color: white;
+        }
+
+        thead th {
+            background-color: lightskyblue;
+            color: white;
+        }
+
+        tfoot th, tfoot td {
+            background-color:whitesmoke;
+            font-weight: bold;
+        }
+
+        .celda-combinada {
+            vertical-align: middle;
+            background-color:lightcyan
+        }
+
+        table {
+            empty-cells: hide; 
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Tabla 1: Resumen de inventario y valoración actual.</caption>
+        
+        <thead>
+            <tr>
+                <th>Categoría</th>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio Unitario</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2" class="celda-combinada">Electrónica</td>
+                <td>Monitor 24"</td>
+                <td>10</td>
+                <td>150 €</td>
+                <td>1500 €</td>
+            </tr>
+            <tr>
+                <td>Teclado Mecánico</td>
+                <td>20</td>
+                <td>50 €</td>
+                <td>1000 €</td>
+            </tr>
+
+            <tr>
+                <td>Oficina</td>
+                <td>Silla Ergonómica</td>
+                <td>5</td>
+                <td>120 €</td>
+                <td>600 €</td>
+            </tr>
+
+            <tr>
+                <td>Oficina</td>
+                <td>Escritorio</td>
+                <td>8</td>
+                <td>200 €</td>
+                <td>1600 €</td>
+            </tr>
+
+            <tr>
+                <td>Varios</td>
+                <td>Cables USB</td>
+                <td>50</td>
+                <td>5 €</td>
+
+                <td></td> 
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="4" style="text-align: right;">Total General Estimado:</th>
+                <td>4950 €</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
+</body>
+</html>
