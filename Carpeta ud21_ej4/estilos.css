@@ -1,0 +1,17 @@
+#id{
+    color: darkblue;
+    background-color: lightgreen;
+}
+
+.corp-secundario{
+    color:green;
+}
+
+a[target="_blank"]{
+    color:red;
+}
+
+p[class="resaltado"]{
+    background-color:lightyellow;
+    color: darkblue;
+}
