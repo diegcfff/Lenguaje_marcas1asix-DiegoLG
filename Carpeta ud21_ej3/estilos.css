@@ -1,0 +1,21 @@
+h1 em {
+    color: orange;
+}
+
+li p{
+    color:lightgrey
+}
+
+.comentarios p{
+    border-left: 1px solid blue;
+    padding-left: 10px;
+}
+
+p.especial{
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.especial{
+    background-color: lightyellow;
+}
