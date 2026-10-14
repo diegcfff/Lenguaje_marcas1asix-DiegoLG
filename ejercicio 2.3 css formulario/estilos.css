@@ -1,0 +1,21 @@
+table, td{
+    border: 4px solid white;
+    border-collapse: collapse;
+    border-style: inset;
+    width: 800px;
+    height: 30px;
+    padding: 0px 0px 0px 13px;
+}
+body{
+    background-color: #f0947c;
+}
+.ID{
+    color: gray;
+    margin: auto;
+}
+.input_ID{
+    text-align: center;
+}
+.Reset, .Submit{
+    text-align: center;
+}
