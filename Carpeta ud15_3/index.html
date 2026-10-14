@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse:collapse;
+            width: 80%;
+        }
+
+        th, td{
+            border: 1px solid;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th{
+            background-color:bisque;
+        }
+
+        .cafe{
+            background-color:brown;
+            color:white;
+            font-Weight:bold;
+        }
+        .fila-gris{
+            background-color:lightgray
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Menu y lista de Precios</caption>
+        <tr>
+            <th>Producto</th>
+            <th>Tamaño / Opción</th>
+            <th>Precio</th>
+        </tr>
+
+        <tr>
+            <td colspan="3" class="cafe">CAFES ESPECIALES</td>
+        </tr>
+
+        <tr>
+            <td>Café Latte</td>
+            <td>Mediano</td>
+            <td>$1,80</td>
+        </tr>
+        <tr class="fila-gris">
+            <td>Cafe del tiempo</td>
+            <td>Grande</td>
+            <td>2,30</td>
+        </tr>
+
+        <tr>
+            <td>Té Verde</td>
+            <td>Taza estándar</td>
+            <td>1,50 €</td>
+        </tr>
+
+        <tr class="fila-gris">
+            <td>Chocolate Caliente</td>
+            <td>Taza grande</td>
+            <td>2,50 €</td>
+        </tr>
+    </table>
+</body>
+</html>
