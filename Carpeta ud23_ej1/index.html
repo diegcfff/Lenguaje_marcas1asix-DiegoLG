@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <form action="http://172.30.18.224:3000/" method="post">
+        <h1>Formulario de alta de usuarios</h1>
+        <table>
+            <tr>
+                <td colspan="2" class="Input_ID">
+                    <label for="id">Identificador de nuevo usuario</label>
+                    <input class="ID" type="text" readonly name="ID" id="ID" value="usu_012345" title="Identificador único del usuario (solo lectura)">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Name">Nombre:</label><input type="text" name="Name" id="Name" title="Escriba su nombre en este campo" maxlength="52"></td>
+                <td><label for="Surname">Apellidos: </label><input type="text" name="Surname" id="Surname" title="Escriba en este campo sus apellidos" maxlength="52"></td>
+            </tr>
+            <tr>
+                <td><label for="Password">Contraseña:</label><input type="password" name="Password" id="Password" tittle="Escriba su contraseña en este campo."></td>
+                <td><label for="CPassword">Confirmar contraseña</label><input type="paswsord" name="CPassword" tittle="Confirme su contraseña."></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="Email">Email:</label><input type="text" name="Email" title="Escriba su correo electronico" id="Email" size="60"></td>
+            </tr>
+            <tr>
+                <td><label for="Genre">Sexo:</label></td>
+                <td>
+                    <input type="radio" name="Genre" id="genre_h" value="Hombre" title>
+                    <label for="genre_h">Hombre</label>
+                    <input type="radio" name="Genre" id="genre_m" value="Mujer" checked title="Seleccione su sexo">
+                    <label for="genre_m">Mujer</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Hobbies">Aficiones: </label></td>
+                <td>
+                    <input type="checkbox" name="Sport" id="Sport" title="Seleccione sus aficiones">
+                    <label for="Sport">Deportes</label>
+                    <br>
+                    <input type="checkbox" name="Reading" id="Reading" checked title="Seleccione sus aficiones">
+                    <label for="Reading">Lectura</label>
+                    <br>
+                    <input type="checkbox" name="Cinema" id="Cinema" title="Seleccione sus aficiones">
+                    <label for="Cinema">Cine</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Country">País: </label></td>
+                <td>
+                    <select name="Country" id="Country" size="1" title="Seleccione su país de residencia">
+                        <option selected value="España">España</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Francia">Francia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Photo">Subir su foto: </label></td>
+                <td><input type="file" name="Photo" id="Photo" title="Seleccione una imagen desde su dispositivo"></td>
+            </tr>
+            <tr>
+                <td><label for="Comments">Comentarios personales: </label></td>
+                <td><textarea name="Comments" id="Comments" cols="40" rows="5" title="Añade comentarios adicionales">Escriba aquí sus comentarios</textarea></td>
+            </tr>
+            <tr>
+                <td class="Reset"><input type="reset" value="Reinicializar" title="Reinicializa los valores del formulario"></td>
+                <td class="Submit"><input type="submit" value="Enviar" title="Envía los datos del formulario"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
