@@ -1,0 +1,13 @@
+Línea 1: Declaración DOCTYPE incorrecta. Ponía htm en lugar de html (falta la letra "l" al final).
+
+Línea 2: Atributo de idioma mal escrito y valor sin comillas. Ponía lan=es en lugar de lang="es".
+
+Línea 4: La etiqueta de título no se ha cerrado. Falta añadir </title>
+
+Línea 7: Cierre de encabezado incorrecto. Ponía <h1>Contacto<h1> en vez de <h1>Contacto</h1>
+
+Línea 8: Etiquetas incorrectas, las etiquetas <p> y <b> esta todo mal cerrado, la correcion es  <p>Escribenos a <b>info@instituto.es</b></p>
+
+Línea 9: El párrafo no está cerrado. Falta añadir </p> al final de la frase del horario de atención.
+
+Líneas 11 y 12: Los elementos de la lista no tienen etiqueta de cierre. Cada </li> debe cerrarse con su correspondiente <li>.
