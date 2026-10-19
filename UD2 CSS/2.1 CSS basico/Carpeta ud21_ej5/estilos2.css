@@ -1,0 +1,17 @@
+h1, h2{
+    font-family: Arial, sans-serif;
+}
+
+.titulo-principal {
+    background-color: white;
+    font-size: 36px;
+}
+
+.texto-verde {
+    color: darkgreen;
+}
+
+.caja-contacto {
+    background-color: lightgreen;
+    font-size: 14px;
+}

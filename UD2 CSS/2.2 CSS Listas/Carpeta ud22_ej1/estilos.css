@@ -1,0 +1,7 @@
+.ingredientes{
+    list-style-type: square;
+}
+
+.elaboracion{
+    list-style-type: upper-roman;
+}
