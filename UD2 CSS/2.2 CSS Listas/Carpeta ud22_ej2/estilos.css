@@ -1,0 +1,14 @@
+.modulos{
+  /*
+    list-style-image: url("./img/cuadrado.png");
+    list-style-position: outside;
+  */
+    list-style: outside url("./img/cuadrado.png");
+    }
+
+    
+/* 
+  Diferencia entre inside y outside:
+  'outside' sitúa la viñeta fuera del bloque de texto, mientras que 
+  'inside' la coloca dentro, haciendo que las líneas largas de texto se alineen por debajo de la viñeta.
+*/
