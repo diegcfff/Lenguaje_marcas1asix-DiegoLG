@@ -1,0 +1,29 @@
+.tarjeta{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 15px;
+    position: relative;
+}
+
+.etiqueta{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.caja-comentarios{
+    width: 300px;
+    height: 120px;
+    border: 1px solid black;
+    padding: 10px;
+    overflow: auto;
+}
+
+.oculta-visibility{
+    visibility: hidden;
+}
+
+.oculta-display{
+    display: none;
+}
