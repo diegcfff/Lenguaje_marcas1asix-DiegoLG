@@ -1,0 +1,24 @@
+input:focus, select:focus, textarea:focus {
+    background-color: #e0f7fa;
+}
+
+input:required {
+    border-left: 4px solid red;
+}
+
+input:read-only {
+    color: gray;
+}
+
+input:disabled {
+    opacity: 0.5;
+}
+
+input:checked + label {
+    font-weight: bold;
+    color: green;
+}
+
+input:hover:focus {
+    background-color: #ffecb3;
+}

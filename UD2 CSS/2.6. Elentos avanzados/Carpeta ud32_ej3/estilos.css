@@ -1,0 +1,35 @@
+p::first-letter{
+    font-size: 2em;
+    color: tomato;
+}
+
+p::first-line{
+    font-weight: bold;
+}
+
+::selection{
+    background-color: lightblue;
+}
+
+ul{
+    list-style: none;
+}
+
+li::before{
+    content: "✔";
+    color: green;
+}
+
+a[target="_blank"]::after{
+    content: "↗";
+}
+
+h2::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: salmon;
+    margin-top: 5px;
+}
+
