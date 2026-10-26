@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header {
+    position: relative;
+    padding: 20px;
+}
+
+.contenido-cabecera {
+    display: inline-block;
+}
+
+header h1 {
+    color: darkred;
+    margin: 0;
+    font-size: 2rem;
+}
+
+header h2 {
+    color: darkgreen;
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.logo-html {
+    position: absolute;
+    left: 25px;
+    top: 18px;
+    width: 55px;
+    height: auto;
+}
+
+.logo-css {
+    position: absolute;
+    right: 25px;
+    top: 18px;
+    width: 55px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: darkslategray;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: red;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+.social-section {
+    text-align: center;
+    padding: 10px;
+}
+
+article {
+    display: inline-block;
+    width: 31%;
+    vertical-align: top;
+    text-align: left;
+    margin: 10px 1%;
+    padding: 15px;
+    box-sizing: border-box;
+    min-height: 160px;
+}
+
+article:nth-child(1) { background-color: rgba(162, 179, 188, 0.5); }
+article:nth-child(2) { background-color: rgba(241, 151, 79, 0.5); }
+article:nth-child(3) { background-color: rgba(208, 61, 107, 0.5); }
+article:nth-child(4) { background-color: rgba(195, 23, 65, 0.5); }
+article:nth-child(5) { background-color: rgba(109, 104, 166, 0.5); }
+article:nth-child(6) { background-color: rgba(156, 154, 203, 0.5); }
+
+article img {
+    float: left;
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+
+article h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.1rem;
+}
+
+article p {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    transition: transform 0.3s ease;
+}
+
+article img:hover, .footer-icons img:hover {
+    transform: scale(1.2); 
+}
+
+footer p {
+    margin: 5px 0 0 0;
+    font-size: 0.9rem;
+    color: darkslategray;
+}
