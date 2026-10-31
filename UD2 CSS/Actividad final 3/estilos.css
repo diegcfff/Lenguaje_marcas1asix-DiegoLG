@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+    color: whitesmoke;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: black;
+    border-right: 1px solid purple;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.logo-menu {
+    color: deeppink;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0 0 0;
+}
+
+nav ul li {
+    margin-bottom: 15px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: turquoise;
+}
+
+main {
+    margin-left: 200px;
+}
+
+header#inicio {
+    height: 300px;
+    position: relative;
+    background-color: purple;
+}
+
+.portada {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.portada h1 {
+    color: turquoise;
+    margin: 0 0 10px 0;
+    font-size: 32px;
+}
+
+.portada p {
+    margin: 0;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+section {
+    padding: 40px 30px;
+}
+
+section h2 {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: turquoise;
+    margin: 0 0 20px 0;
+    padding: 10px 0;
+    z-index: 10;
+    border-bottom: 2px solid turquoise;
+}
+
+ul.horario {
+    position: relative;
+    list-style: none;
+    padding-left: 30px;
+    margin: 0;
+}
+
+ul.horario::before {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 5px;
+    bottom: 5px;
+    width: 2px;
+    background-color: deeppink;
+}
+
+ul.horario li {
+    position: relative;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+ul.horario li::before {
+    content: '';
+    position: absolute;
+    left: -27px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    background-color: turquoise;
+    border-radius: 50%;
+}
+
+ul.horario li strong {
+    color: deeppink;
+}
+
+.cartel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.cartel span {
+    border: 1px solid deeppink;
+    padding: 8px 20px;
+    border-radius: 25px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.cartel .artista-destacado {
+    background-color: deeppink;
+    color: white;
+}
+
+.faq {
+    height: 170px;
+    overflow-y: auto;
+    border: 1px solid turquoise;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.faq p {
+    margin-top: 0;
+}
+
+.faq p strong {
+    color: turquoise;
+}
+
+footer {
+    padding: 20px 30px;
+    text-align: center;
+    border-top: 1px solid purple;
+    color: gray;
+}
